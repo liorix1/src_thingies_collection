@@ -12,4 +12,4 @@ hostname=premium-noneu.truecaller.com
 
 [Script]
 
-http-response https://premium-eu.truecaller.com/v3/subscriptions/status requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/Truecaller.js
+http-response https://premium-noneu.truecaller.com/v3/subscriptions/status requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/Truecaller.js
