@@ -1,0 +1,15 @@
+#!name=EPIK
+
+#!desc=test description ig...
+
+#!author=me
+
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/fantastical.png
+
+[MITM]
+
+hostname=purchase-epik-api.snow.me
+
+[Script]
+
+http-response https://purchase-epik-api.snow.me/v1/purchase/subscription/subscriber/status requires-body=1,script-content=https://github.com/liorix1/src_thingies_collection/blob/main/scripts/EPIK.js
