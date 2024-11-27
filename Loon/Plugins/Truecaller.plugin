@@ -1,7 +1,7 @@
 #!name=Truecaller
 #!desc=test description ig...
 #!author=me
-#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Truecaller.PNG
+#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Truecaller.png
 
 [MITM]
 hostname=premium-noneu.truecaller.com
