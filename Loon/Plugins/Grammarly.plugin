@@ -1,7 +1,7 @@
 #!name=Grammarly
 #!desc=Grammarly
 #!author=me
-#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Grammarly.PNG
+#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Grammarly.png
 
 [MITM]
 hostname=subscription.grammarly.com
