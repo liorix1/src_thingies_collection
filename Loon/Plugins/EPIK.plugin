@@ -1,15 +1,10 @@
 #!name=EPIK
-
 #!desc=EPIK
-
 #!author=me
-
 #!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/EPIK.PNG
 
 [MITM]
-
 hostname=purchase-epik-api.snow.me
 
 [Script]
-
-http-response https://purchase-epik-api.snow.me/v1/purchase/subscription/subscriber/status requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/EPIK.js
+http-response https://purchase-epik-api.snow.me/v1/purchase/subscription/subscriber/status requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/EPIK.js, tag=Fitbod
