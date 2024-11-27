@@ -1,0 +1,8 @@
+#!name=EPIK
+#!desc=EPIK
+
+[Script]
+EPIK = type=http-response, pattern=https://purchase-epik-api.snow.me/v1/purchase/subscription/subscriber/status, script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/EPIK.js, requires-body=true
+
+[MITM]
+hostname = %APPEND% purchase-epik-api.snow.me
