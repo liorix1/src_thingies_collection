@@ -1,9 +1,6 @@
 #!name=iTunes thingy
-
 #!desc=iTunes thingy
-
 #!author=me
-
 #!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/iTunes%20thingy.png
 
 [MITM]
