@@ -1,7 +1,7 @@
 #!name=EPIK
 #!desc=EPIK
 #!author=me
-#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/EPIK.PNG
+#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/EPIK.png
 
 [MITM]
 hostname=purchase-epik-api.snow.me
