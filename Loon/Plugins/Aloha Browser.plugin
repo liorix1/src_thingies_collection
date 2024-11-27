@@ -1,7 +1,7 @@
 #!name=Aloha Browser
 #!desc=Requires to sign in to the account
 #!author=me
-#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Aloha%20Browser.PNG
+#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Aloha%20Browser.png
 
 [MITM]
 hostname=api.alohaprofile.com
