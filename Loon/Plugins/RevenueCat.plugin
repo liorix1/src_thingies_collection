@@ -1,15 +1,10 @@
 #!name=RevenueCat
-
 #!desc=test description ig...
-
 #!author=idk
-
 #!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/RevenueCat.png
 
 [MITM]
-
 hostname=api.revenuecat.com
 
 [Script]
-
-http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/RevenueCat
+http-response ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/RevenueCat, tag=RevenueCat
