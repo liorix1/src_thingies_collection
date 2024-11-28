@@ -1,7 +1,7 @@
 #!name=Endel
 #!desc=Endel
 #!author=me
-#!icon=
+#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Endel.PNG
 
 [MITM]
 hostname=api-production.endel.io
