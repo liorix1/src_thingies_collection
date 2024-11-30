@@ -14,6 +14,8 @@ var productMapping = {
   'default': ['receiptData', 'productID', 0],
 	'com.fourtome.app':
 ['Fourtome', 'com.fourtome.app.year', 0],
+	'com.funnmedia.hit-the-island':
+['Hit The Island', 'HTI_NO_ADS', 0],
   'com.sugarmo.ScrollClip': ['picsewV3.9.4', 'com.sugarmo.ScrollClip.pro', 1],
   'com.zijayrate.analogcam': ['oldroll', 'com.zijayrate.analogcam.vipforever10', 0],
   'com.loveyouchenapps.knockout': ['proknockout', 'com.knockout.7daysplus', 0],
