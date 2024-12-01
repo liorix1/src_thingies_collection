@@ -13,6 +13,7 @@ var receiptData = JSON.parse($response.body);
 var productMapping = {
   'default': ['receiptData', 'productID', 0],
   'com.fourtome.app': ['Fourtome', 'com.fourtome.app.year', 0],
+  'com.hahainteractive.GoodTask3': ['GoodTask', 'com.hahainteractive.goodtask3.pro', 1],
   'com.funnmedia.hit-the-island': ['Hit The Island', 'HTI_NO_ADS', 1],
   'com.sugarmo.ScrollClip': ['picsewV3.9.4', 'com.sugarmo.ScrollClip.pro', 1],
   'com.zijayrate.analogcam': ['oldroll', 'com.zijayrate.analogcam.vipforever10', 0],
