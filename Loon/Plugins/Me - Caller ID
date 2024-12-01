@@ -1,0 +1,10 @@
+#!name=Me - Caller ID
+#!desc=Me - Caller ID
+#!author=me
+#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Me%20-%20Caller%20ID.png
+
+[MITM]
+hostname=app.mobile.me.app
+
+[Script]
+http-response https://app.mobile.me.app/.* requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/Me%20-%20Caller%20ID.js, tag=Me - Caller ID
