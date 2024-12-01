@@ -12,6 +12,7 @@ var receiptData = JSON.parse($response.body);
 // ********** Product ID Map ********** //
 var productMapping = {
   'default': ['receiptData', 'productID', 0],
+  'com.nfo.Me': ['Me - Caller ID', 'mepro.year.sub', 0],
   'com.fourtome.app': ['Fourtome', 'com.fourtome.app.year', 0],
   'com.hahainteractive.GoodTask3': ['GoodTask', 'com.hahainteractive.goodtask3.pro', 1],
   'com.funnmedia.hit-the-island': ['Hit The Island', 'HTI_NO_ADS', 1],
