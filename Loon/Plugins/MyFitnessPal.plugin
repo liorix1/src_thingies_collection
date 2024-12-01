@@ -7,4 +7,4 @@
 hostname=premium-api.myfitnesspal.com
 
 [Script]
-http-response https://premium-api.myfitnesspal.com/v3/subscriptions/MFPsubscriber/status requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/MyFitnessPal.js, tag=MyFitnessPal
+http-response https://premium-api.myfitnesspal.com/v3/subscriptions/MFP requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/MyFitnessPal.js, tag=MyFitnessPal
