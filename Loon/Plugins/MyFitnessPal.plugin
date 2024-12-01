@@ -1,0 +1,10 @@
+#!name=MyFitnessPal
+#!desc=MyFitnessPal
+#!author=me
+#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/MyFitnessPal.PNG
+
+[MITM]
+hostname=premium-api.myfitnesspal.com
+
+[Script]
+http-response https://premium-api.myfitnesspal.com/v3/subscriptions/MFPsubscriber/status requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/MyFitnessPal.js, tag=MyFitnessPal
