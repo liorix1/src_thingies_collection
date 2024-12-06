@@ -1,10 +1,10 @@
-/***********************************************
+/**************************************
 Matching URL:
 https://dayone.app/api/v2/users/(receipt|account-status)
 
 MitM Hostname:
 dayone.app
-***********************************************/
+*************************************/
 
 const path1 = "/account-status";
 const path2 = "/receipt";
