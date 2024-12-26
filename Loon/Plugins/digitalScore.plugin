@@ -4,7 +4,7 @@
 #!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/digitalScore.png
 
 [MITM]
-hostname=purchase-epik-api.snow.me
+hostname=api.rc-backup.com
 
 [Script]
 http-response https://api.rc-backup.com/v1/receipts requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/digitalScore.js, tag=digitalScore
