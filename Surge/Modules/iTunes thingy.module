@@ -2,7 +2,7 @@
 #!desc=iTunes thingy
 
 [Script]
-iTunes thingy = type=http-response, pattern=https://buy.itunes.apple.com/verifyReceipt, script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/iTunes%20thingy.js, requires-body=true
+iTunes thingy = type=http-response, pattern=^https://buy.itunes.apple.com/verifyReceipt, script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/iTunes%20thingy.js, requires-body=true
 
 [MITM]
-hostname = %APPEND% but.itunes.apple.com
+hostname = %APPEND% buy.itunes.apple.com
