@@ -1,6 +1,6 @@
 /**************************************
 Matching URL:
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
+^https:\/\/api\.(rc-backup|revenuecat)\.com\/.+\/(receipts$|subscribers\/[^/]+$)
 
 MitM Hostname:
 api.revenuecat.com
