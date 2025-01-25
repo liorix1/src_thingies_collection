@@ -1,0 +1,10 @@
+#!name=Fantastical
+#!desc=Fantastical
+#!author=me
+#!icon=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/icons/Fantastical.png
+
+[MITM]
+hostname=api.flexibits.com
+
+[Script]
+http-response ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) requires-body=1,script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/Fantastical.js, tag=Fantastical
