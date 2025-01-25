@@ -1,0 +1,8 @@
+#!name=Qonversion
+#!desc=Qonversion
+
+[Script]
+Qonversion = type=http-response, pattern=api.qonversion.io/v1/user/init, script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/EPIK.js, requires-body=true
+
+[MITM]
+hostname = %APPEND% api.qonversion.io
