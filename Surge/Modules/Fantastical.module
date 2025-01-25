@@ -1,0 +1,8 @@
+#!name=Fantastical
+#!desc=Fantastical
+
+[Script]
+Fantastical = type=http-response, pattern=^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details), script-path=https://raw.githubusercontent.com/liorix1/src_thingies_collection/refs/heads/main/scripts/Fantastical.js, requires-body=true
+
+[MITM]
+hostname = %APPEND% api.flexibits.com
