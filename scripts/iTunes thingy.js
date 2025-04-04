@@ -13,6 +13,7 @@ var receiptData = JSON.parse($response.body);
 var productMapping = {
   'default': ['receiptData', 'productID', 0],
   'com.filmbox.tools.app': ['Filmboxtools', 'com.filmbox.tools.app.year', 0],
+  'com.betterweightapp.BetterWeight': ['Better Weight', 'com.betterweightapp.one_month_plus', 0],
   'com.anytvapp.app': ['AnyTV', 'annuly_without_trial', 0],
   'com.fourtome.app': ['Fourtome', 'com.fourtome.app.year', 0],
   'com.hahainteractive.GoodTask3': ['GoodTask', 'com.hahainteractive.goodtask3.pro', 1],
